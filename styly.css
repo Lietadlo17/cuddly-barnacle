@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    background-color: burlywood;
+    height: 100vh;
+    margin: 0;
+}
+
+#template-container, #matrix-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    height: 100vh;
+    margin: 0;
+}
+
+#template,
+#matrix {
+    text-align: center;
+}
+
+#template-container {
+    background-color: bisque;
+}
+
+#matrix input {
+    width: 50px;
+    margin: 10px;
+}
+
+#matrix button {
+    width: 130px;
+    background-color: beige;
+}
+
+label {
+    font-weight: bolder;
+}
+
+
