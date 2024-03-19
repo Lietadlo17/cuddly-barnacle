@@ -7,15 +7,14 @@ Matrix Creator is a simple web application that allows users to create matrices 
 - **Matrix Creation**: Easily create matrices of any size.
 - **Custom Values**: Input your desired values for the matrix elements.
 - **LaTeX Code Generation**: Automatically generates LaTeX code for the created matrix.
-- **Download Options**: Download the generated LaTeX code for your own use.
+- **Quick changing of cells**: You can move to next cell using <enter>.
 
 ## How to Use
 
-1. Navigate to the [Matrix Creator](#) website.
-2. Input the dimensions of the matrix (rows x columns).
-3. Enter the values for each element of the matrix.
-4. Click on the "Generate LaTeX Code" button.
-5. Copy the generated LaTeX code or download it as a file.
+1. Input the dimensions of the matrix (rows x columns).
+2. Enter the values for each element of the matrix.
+3. Click on the "Generate LaTeX Code" button.
+4. Copy the generated LaTeX code.
 
 ## Contributing
 
