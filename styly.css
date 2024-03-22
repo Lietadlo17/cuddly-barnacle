@@ -33,6 +33,16 @@ body {
     background-color: beige;
 }
 
+#matrix p {
+    font-weight: bolder;
+}
+
+#textfield {
+    width: 500px; 
+    height: 500px;
+    background-color: bisque; 
+}
+
 label {
     font-weight: bolder;
 }

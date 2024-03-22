@@ -1,3 +1,23 @@
+function Checkbox() {
+    const textArea = document.getElementById("text_area");
+    if (textArea.checked) {
+      Create_textfield();
+    } else {
+      generateMatrix();
+    }
+  }
+
+function Create_textfield(){
+    var text=""
+    text += "<p>Use Tab to separate elements</p>"
+    text += "<textarea id='textfield' min-height='200px' placeholder=''></textarea><br>"
+    text += "<button onclick='generateListfromText()' id='generation'>Generate Code</button><br>"
+    text += "<input type='text' id='output'>"
+    document.getElementById("matrix").innerHTML = ""
+    document.getElementById("matrix").innerHTML = text
+    document.getElementById("output").style.width = "170px"
+}
+
 function generateMatrix() {
     var rows = parseInt(document.getElementById("rows").value)
     var cols = parseInt(document.getElementById("columns").value)
@@ -8,7 +28,7 @@ function generateMatrix() {
         }
         text += "<br>"
     }
-    text += "<button onclick='generateList()' id='generation'>Generate Code</button><br>"
+    text += "<button onclick='generateListfromTable()' id='generation'>Generate Code</button><br>"
     text += "<input type='text' id='output'>"
     if ((0 < rows && rows < 15) && (1 < cols && cols < 15)){
         document.getElementById("matrix").innerHTML = ""
@@ -17,7 +37,11 @@ function generateMatrix() {
     }
   }
 
-function generateList() {
+function generateListfromText() {
+    pass
+}
+
+function generateListfromTable() {
     var state = []
     var rows = parseInt(document.getElementById("rows").value)
     var cols = parseInt(document.getElementById("columns").value)
